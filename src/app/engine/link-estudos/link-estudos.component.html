@@ -1,0 +1,11 @@
+<div class="roll-number">
+  <a class="number" [ngClass]="{'select': numberSelect===0}" [ngClass]="(numberSelectBool1===true?'able':'unable')" (click)="setNumberClick(0)" [routerLink]="'/estudos/page/1'">Ver Primeiro</a>
+  <a class="number" [ngClass]="{'select': numberSelect===1}" (click)="setNumberClick(1)" [routerLink]="'/estudos/page/1'">1</a>
+  <a class="number" [ngClass]="{'select': numberSelect===2}" (click)="setNumberClick(2)" [routerLink]="'/estudos/page/2'">2</a>
+  <a class="number" [ngClass]="{'select': numberSelect===3}" (click)="setNumberClick(3)" [routerLink]="'/estudos/page/3'">3</a>
+  <a class="number" [ngClass]="{'select': numberSelect===4}" (click)="setNumberClick(4)" [routerLink]="'/estudos/page/4'">4</a>
+  <a class="number" [ngClass]="{'select': numberSelect===5}" (click)="setNumberClick(5)" [routerLink]="'/estudos/page/5'">5</a>
+  <a class="number" [ngClass]="{'select': numberSelect==='...'}" (click)="setNumberClick('...')" [routerLink]="'/estudos/page/last'">...</a>
+  <!-- <a class="number" [ngClass]="{'select': numberSelect===6}">Ver Mais</a> -->
+  <a class="number" [ngClass]="{'select': numberSelect===7}" [ngClass]="(numberSelectBool2===true?'able':'unable')" (click)="setNumberClick(7)" [routerLink]="'/estudos/page/last'">Ver Último</a>
+</div>

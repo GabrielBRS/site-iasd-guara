@@ -1,0 +1,76 @@
+:host{
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 3px solid #b35340;
+  background-color: #233342;
+  z-index: 10;
+
+}
+
+.logo{
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+  height: 100%;
+  place-content: center;
+  place-items: center;
+  place-self: center;
+
+  svg{
+    display: flex;
+    flex-direction: row;
+    place-content: center;
+    place-items: center;
+    place-self: center;
+    width: 65px;
+    height: 65px;
+    fill:#b35340;
+    fill-rule:"evenodd";
+  }
+}
+
+.conteudo{
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  height: 100%;
+  place-content: center;
+  place-items: center;
+  place-self: center;
+
+  a{
+    padding: 10px;
+    margin-left: 5;
+    font-family: 'Philosopher';
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #b35340;
+
+    &:hover{
+      color: #233342;
+      background-color: #b35340;
+    }
+  }
+}
+
+.login{
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+  height: 100%;
+  place-content: center;
+  place-items: center;
+  place-self: center;
+
+  div{
+    margin: 5px;
+  }
+}

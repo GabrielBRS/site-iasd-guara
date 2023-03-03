@@ -1,0 +1,21 @@
+<div class="body-card">
+  <div class="img-area">
+    <img [src]="img" [alt]="imgDescricao">
+  </div>
+  <div class="descricao-area">
+    <div class="titulo">
+      {{titulo}}
+    </div>
+    <div class="autor">
+      Autores: {{autor}}
+    </div>
+    <div class="descricao">
+      {{descricao}}
+    </div>
+    <div class="link" [routerLink]="link">
+      <a class="button">
+        Ver estudo
+      </a>
+    </div>
+  </div>
+</div>

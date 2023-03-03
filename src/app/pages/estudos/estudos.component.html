@@ -1,0 +1,11 @@
+<div class="index-page">
+  <router-outlet name="index-page"></router-outlet>
+</div>
+<div class="info" style="margin-top: 10px;">
+  <div class="date">Data: {{dateNowDay+"/"+dateNowMes+"/"+dateNowAno+" "+dateNowHoras+":"+dateNowMinutos+":"+dateNowSegundos}}</div>
+</div>
+<div class="show-content">
+  <div class="center-content">
+    <router-outlet></router-outlet>
+  </div>
+</div>

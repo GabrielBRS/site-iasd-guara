@@ -1,0 +1,104 @@
+.body-card{
+  display: flex;
+  flex-direction: row;
+  height: 300px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #233342;
+  border-bottom: 3px solid #b35340;
+  border-right: 3px solid #b35340;
+
+  .img-area{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 20%;
+    background-color: transparent;
+
+    img{
+      display: flex;
+      flex-direction: row;
+      height: 100px;
+      width: 200px;
+      margin-left: 15px;
+      margin-top: 15px;
+      border-radius: 10px;
+      background-color: red;
+      justify-content: center;
+      align-items: center;
+
+    }
+  }
+
+  .descricao-area{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 80%;
+    margin-left: 15px;
+    margin-top: 15px;
+
+    .titulo{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 20%;
+      font-size: 30px;
+      color: #ce8044;
+      font-family: 'Genos';
+    }
+
+    .autor{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 10%;
+      font-size: 14px;
+      color: #ce804499;
+      font-family: 'Arial';
+    }
+
+    .descricao{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 55%;
+      font-size: 25px;
+      color: #b35340;
+      font-family: 'Philosopher';
+    }
+
+    .link{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 15%;
+      align-items: center;
+      align-self: center;
+
+      .button{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 50%;
+        align-items: center;
+        align-self: center;
+        font-size: 22px;
+        font-family: 'Philosopher';
+        justify-content: center;
+        background-color: #b35340;
+        color: #233342;
+        border-radius: 10px;
+        text-decoration: none;
+        cursor: pointer;
+        &:hover{
+          background-color: #db2b31;
+          color: #233342;
+        }
+
+      }
+    }
+
+  }
+
+}

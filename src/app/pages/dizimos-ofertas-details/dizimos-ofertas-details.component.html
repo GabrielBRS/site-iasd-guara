@@ -1,0 +1,10 @@
+<div *ngIf="showOptions===true" class="select-details" (click)="setContribuicao()">
+  <router-outlet name="aux"></router-outlet>
+</div>
+<div ngClass="body-card" *ngIf="showOptions===false" class="select-details-off" (click)="setContribuicao()">
+  <div class="title">Mostrar Outras Formas Contribuir</div>
+</div>
+<div class="show-details">
+  <router-outlet></router-outlet>
+  <router-outlet name="pri"></router-outlet>
+</div>

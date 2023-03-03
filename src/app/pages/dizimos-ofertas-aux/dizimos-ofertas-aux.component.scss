@@ -1,0 +1,62 @@
+// :host{
+//   margin-top: 95px !important;
+//   background-color: antiquewhite;
+//   width: 100%;
+//   height: 50px;
+// }
+
+.itens-dizimos-ofertas{
+  display: flex;
+  flex-direction: row;
+  place-content: center;
+  place-self: center;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+
+  .link-itens{
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    place-self: center;
+    place-items: center;
+    background-color: #233342;
+    width: 100%;
+    height: 100%;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 3px solid #b35340;
+    text-decoration: none;
+    &:hover{
+      border: 3px solid #ce8054;
+      .title{
+        color: #ce8054;
+      }
+      svg{
+        fill: #ce8054;
+      }
+    }
+
+    .title{
+      display: flex;
+      flex-direction: column;
+      place-content: center;
+      place-items: center;
+      place-self: center;
+      font-size: 14px;
+      height: 20px;
+      width: 100%;
+      font-family: 'Roboto';
+      text-decoration: none;
+      color: #b35340;
+    }
+
+    .svg{
+      height: 130px;
+      width: 130px;
+      fill: #b35340;
+    }
+  }
+}
