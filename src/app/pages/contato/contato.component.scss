@@ -1,0 +1,185 @@
+:host{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+
+}
+
+.titulo{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 50px;
+  align-items: center;
+  align-self: center;
+  margin-top: 20px;
+  font-size: 30px;
+  font-family: 'Playfair Display SC';
+  color: #4b2b31;
+
+}
+
+.line-sub{
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 5px;
+  background-color: #4b2b31;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin: auto;
+  position: relative;
+  top: -50px;
+
+}
+
+.forme-data-group{
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  width: 90%;
+  margin-bottom: 50px;
+
+  #input-forme-name{
+    margin-top: 5px;
+  }
+
+  .margin-titulo{
+    margin-top: 25px;
+  }
+
+  .input-forme{
+    display: flex;
+    flex-direction: row;
+    min-width: 0;
+    min-height: 0;
+    margin-bottom: 5px;
+
+
+    .text-label{
+      display: flex;
+      flex-direction: column;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #6f3637;
+      font-weight: 600;
+      font-size: 18px;
+    }
+
+    .input-forme-data{
+      display: flex;
+      flex-direction: column;
+      justify-content: baseline;
+      align-items: baseline;
+      align-self: baseline;
+      align-content: baseline;
+      width: 100%;
+      min-height: 0;
+      background-color: #ffffff;
+      color: #132d46 !important;
+      font-size: 20px !important;
+    }
+
+    #message{
+      min-height: 0px !important;
+      height: 150px !important;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #132d46 !important;
+      font-size: 20px !important;
+    }
+
+    #input-forme-submit{
+      justify-content: center !important;
+    }
+
+    .input-forme-submit{
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+      height: 35px;
+      justify-content: center;
+      align-items: center;
+      align-self: center;
+      margin-top: 30px;
+      border-radius: 5px;
+      border: 2px solid #b35340;
+      cursor: pointer;
+      background-color: #ffffff;
+      color: #b35340;
+      font-size: 18px;
+    }
+  }
+
+}
+
+::ng-deep{
+  #input-forme-submit{
+    justify-content: center !important;
+  }
+
+  #submit{
+    background-color: #ffffff99;
+    color: #b35340;
+  }
+
+  .input-forme-data{
+    border-radius: 5px;
+    border: 2px solid #b35340;
+    background-color: #ffffff99 !important;
+    color: #b35340 !important;
+    &:focus{
+      border: 2px solid #ffffff !important;
+    }
+    &::placeholder{
+      color: #132d4699 !important;
+    }
+  }
+}
+
+.fones-area{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  margin-bottom: 60px;
+
+  .fones{
+    display: flex;
+    flex-direction: column;
+    // width: 100%;
+    // height: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    margin: 30px;
+
+    .sub-titulo{
+      display: flex;
+      flex-direction: column;
+      font-size: 20px;
+      font-weight: 900;
+      font-family: 'Roboto';
+      color: #132d46;
+    }
+
+    .fone{
+      display: flex;
+      flex-direction: column;
+      font-size: 20px;
+      font-family: 'Roboto';
+      color: #4b2b31;
+    }
+
+  }
+
+}

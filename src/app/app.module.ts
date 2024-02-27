@@ -14,24 +14,31 @@ import { DizimosOfertasDetailsModule } from './pages/dizimos-ofertas-details/diz
 import { DizimosOfertasAuxModule } from './pages/dizimos-ofertas-aux/dizimos-ofertas-aux.module';
 import { BibliotecaVirtualDetailsModule } from './pages/biblioteca-virtual-details/biblioteca-virtual-details.module';
 import { EstudosDetailsModule } from './pages/estudos-details/estudos-details.module';
+import { ProgramacoesModule } from './pages/programacoes/programacoes.module';
+import { HomeModule } from './pages/home/home.module';
+import { RodapeModule } from './pages/rodape/rodape.module';
 
 @NgModule({
   declarations: [
     AppComponent,
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NavbarModule,
+    HomeModule,
+    ProgramacoesModule,
     DizimosOfertasModule,
     DizimosOfertasAuxModule,
     DizimosOfertasDetailsModule,
     BibliotecaVirtualModule,
     BibliotecaVirtualDetailsModule,
     EstudosModule,
-    LinkEstudosModule,
     EstudosDetailsModule,
+    LinkEstudosModule,
     PaginaNaoEncontradaModule,
+    RodapeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

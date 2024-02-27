@@ -1,18 +1,18 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { PageEstudosTwoComponent } from './page-estudos-two.component';
+import { PageEstudosThreeComponent } from './page-estudos-three.component';
 import { LinkBookEstudosModule } from '../link-book-estudos/link-book-estudos.module';
 
 
 
 @NgModule({
   declarations: [
-    PageEstudosTwoComponent
+    PageEstudosThreeComponent
   ],
   imports: [
     CommonModule,
     LinkBookEstudosModule,
   ],
-  exports:[PageEstudosTwoComponent]
+  exports:[PageEstudosThreeComponent]
 })
-export class PageEstudosTwoModule { }
+export class PageEstudosThreeModule { }

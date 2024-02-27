@@ -1,0 +1,101 @@
+.papel-area{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  border: 3px solid #b35340;
+  border-radius: 10px;
+  box-shadow: 3px 4px #000;
+  background-color: #4b2b31;
+
+  .titulo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    font-size: 26px;
+    font-family: 'Playfair Display SC';
+    color: #ce8054;
+  }
+
+  .sub-content{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 5px;
+    background-color: #b35340;
+    margin: auto;
+    position: relative;
+    top: -20px;
+  }
+
+  .linha-com-imagem{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 270px;
+    margin-top: 10px;
+
+    .conteudo{
+      display: flex;
+      flex-direction: column;
+      width: 72%;
+      height: 100%;
+      // background-color: rebeccapurple;
+
+      .texto{
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 20px;
+        font-size: 20px;
+        font-family: 'Roboto';
+        color: #ce8054;
+        word-wrap: break-word;
+        word-break: break-all;
+      }
+    }
+
+    .img-area{
+      display: flex;
+      flex-direction: column;
+      width: 38%;
+      height: 100%;
+      // background-color: red;
+
+
+      .img{
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        height: 250px;
+        justify-content: center;
+        align-items: center;
+        align-self: flex-end;
+        margin-right: 30px;
+        margin-bottom: 50px;
+        fill: #b35340;
+        // fill: rgb(255, 0, 0, 50%);
+        background-color: #00000099;
+        padding: 10px;
+        border-radius: 60px;
+        border: 3px solid #b35340;
+      }
+    }
+
+  }
+
+  .linha-sem-imagem{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1000px;
+    // background-color: blue;
+  }
+
+
+}

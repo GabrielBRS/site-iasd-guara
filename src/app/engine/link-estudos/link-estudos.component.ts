@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AppRoutingModule } from 'src/app/app-routing.module';
 
 @Component({
   selector: 'app-link-estudos',
@@ -26,6 +27,9 @@ export class LinkEstudosComponent implements OnInit {
     this.numberSelect = number;
     // let numbera = this.linkPage.find((value,index)=>{this.dynamicPage(value,index)});
     // window.alert(JSON.stringify(numbera))
+    if(this.numberSelect===0&&this.numberSelectBool1===false){
+      this.numberSelect = 1
+    }
     if(this.numberSelect>=2||this.numberSelect<=4){
       this.numberSelectBool1 = true;
       this.numberSelectBool2 = true;
@@ -41,6 +45,7 @@ export class LinkEstudosComponent implements OnInit {
     if(this.numberSelect==='...'){
       this.numberSelect = 5;
     }
+
   }
 
   // dynamicPage(value:any, index:any){

@@ -7,8 +7,8 @@
   top: 0;
   left: 0;
   right: 0;
-  border-bottom: 3px solid #b35340;
-  background-color: #233342;
+  border-bottom: 3px solid #4051b3;
+  background-color: #051b30;
   z-index: 10;
 
 }
@@ -30,7 +30,7 @@
     place-self: center;
     width: 65px;
     height: 65px;
-    fill:#b35340;
+    fill:#4051b3;
     fill-rule:"evenodd";
   }
 }
@@ -52,11 +52,11 @@
     font-size: 20px;
     text-decoration: none;
     border-radius: 5px;
-    color: #b35340;
+    color: #4051b3;
 
     &:hover{
       color: #233342;
-      background-color: #b35340;
+      background-color: #4051b3;
     }
   }
 }
@@ -72,5 +72,21 @@
 
   div{
     margin: 5px;
+  }
+
+  a{
+    padding: 10px;
+    margin-left: 5;
+    font-family: 'Philosopher';
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #4051b3;
+
+    &:hover{
+      color: #233342;
+      background-color: #4051b3;
+    }
   }
 }

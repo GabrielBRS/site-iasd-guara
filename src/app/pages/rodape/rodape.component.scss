@@ -1,0 +1,34 @@
+.titulo{
+  display: flex;
+  flex-direction: row;
+  font-family: 20px;
+  font-family: 'Roboto';
+  color: black;
+}
+
+.link{
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  font-family: 20px;
+  font-family: 'Roboto';
+  color: black;
+  cursor: pointer;
+  margin-left: 5px;
+
+  &:hover{
+    color: aqua;
+    border-right: 1px solid aqua;
+    border-left: 1px solid aqua;
+  }
+
+  span{
+    margin-right: 1px;
+    margin-left: 4px;
+  }
+
+  .sp-right{
+    margin-right: 4px;
+  }
+
+}
